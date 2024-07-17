@@ -32,6 +32,7 @@ import { PubSub } from './pub-sub/index'
 // 字符串相关
 import { palindrome, reverseString, truncate } from './string/index'
 import { dateFormat } from './date/index'
+import { numberToChinese } from './numberToChinese/numberToChinese'
 
 export {
     chunk,
@@ -60,7 +61,8 @@ export {
     customNew,
     PubSub,
     palindrome, reverseString, truncate,
-    dateFormat
+    dateFormat,
+    numberToChinese
 };
 
 export default {
@@ -90,5 +92,6 @@ export default {
     PubSub,
     eventBus,
     palindrome, reverseString, truncate,
-    dateFormat
+    dateFormat,
+    numberToChinese
 }
